@@ -25,5 +25,5 @@ def generate_text(start_str="hello", length=100):
     return ''.join(generated)
 
 user_input = input("You: ")
-user_input = f"The user says {user_input}. You say "
+#user_input = f"The user says {user_input}. You say "
 print("LLM says:", generate_text(user_input.lower(), 200))
